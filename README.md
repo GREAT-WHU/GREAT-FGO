@@ -1,4 +1,4 @@
-# GREAT-FGO: Factor Graph Optimization-Based Positioning and Navigation Software by Wuhan University GREAT Group (Version 1.0)
+# GREAT-FGO: Factor Graph Optimization-Based Positioning and Navigation Software by Wuhan University GREAT Group (Beta)
 
 ## Overview
 
@@ -92,7 +92,7 @@ bilibili Account: **GREAT智能导航实验室** — we will continue to publish
 
 
 
-# GREAT-FGO: 武汉大学GREAT团队基于因子图优化的定位导航解算软件（1.0版）
+# GREAT-FGO: 武汉大学GREAT团队基于因子图优化的定位导航解算软件（Beta版）
 
 ## 概述
 
