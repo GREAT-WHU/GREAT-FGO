@@ -26,7 +26,7 @@
 ## Package Directory Structure
 
 ```shell
-GREAT-MSF_1.0
+GREAT-FGO_1.0
   ./src                   Source code *
     ./app                 Main programs of GREAT-PVTFGO, GREAT-GINSFGO, GREAT-MSF and GREAT-PVT *
     ./LibGREAT            Core algorithm library for Factor Graph Optimization*
@@ -92,7 +92,7 @@ bilibili Account: **GREAT智能导航实验室** — we will continue to publish
 
 
 
-# GREAT-MSF: 武汉大学GREAT团队基于因子图优化的定位导航解算软件（1.0版）
+# GREAT-FGO: 武汉大学GREAT团队基于因子图优化的定位导航解算软件（1.0版）
 
 ## 概述
 
@@ -120,7 +120,7 @@ bilibili Account: **GREAT智能导航实验室** — we will continue to publish
 
 ## 软件包目录结构
 ```shell
-GREAT-MSF_1.0
+GREAT-FGO_1.0
   ./src                     源代码 *
     ./app                  GREAT-PVTFGO、GREAT-GINSFGO、GREAT-MSF和GREAT-PVT主程序 *
     ./LibGREAT             因子图优化核心算法库 *
