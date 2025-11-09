@@ -74,7 +74,7 @@ Third-party libraries:
 
 ## Download
 
-GitHub: [https://github.com/GREAT-WHU/GREAT-MSF](https://github.com/GREAT-WHU/GREAT-MSF)
+GitHub: [https://github.com/GREAT-WHU/GREAT-FGO](https://github.com/GREAT-WHU/GREAT-FGO)
 
 ## Others
 
