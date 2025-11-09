@@ -3,7 +3,7 @@
 ## Overview
 
   The GREAT (GNSS+ **RE**search, **A**pplication and **T**eaching) software suite is designed and developed by the School of Geodesy and Geomatics, Wuhan University. It is a comprehensive platform for space geodesy data processing, precise positioning and orbit determination, as well as multi-source fusion navigation. <br />
-  GREAT-FGO is a key module within the GREAT software, dedicated to Factor Graph Optimization (FGO) based navigation solutions. It supports a variety of algorithms including RTK, RTK/INS, RTK/INS/Visual and multi-sensor fusion. In the software, core computation modules are implemented in C++, while auxiliary Python 3 scripts are provided for plotting results. GREAT-FGO uses CMAKE for build management, allowing users to flexibly choose mainstream C++ compilers such as GCC, Clang, and MSVC. It currently supports build and execution on Windows; for Linux, users are encouraged to compile and test locally. <br />
+  GREAT-FGO is a key module within the GREAT software, dedicated to Factor Graph Optimization (FGO) based navigation solutions. It supports a variety of algorithms including RTK, RTK/INS, and multi-sensor fusion. In the software, core computation modules are implemented in C++, while auxiliary Python 3 scripts are provided for plotting results. GREAT-FGO uses CMAKE for build management, allowing users to flexibly choose mainstream C++ compilers such as GCC, Clang, and MSVC. It currently supports build and execution on Windows; for Linux, users are encouraged to compile and test locally. <br />
   GREAT-FGO consists of two portable program libraries: LibGREAT and LibGnut. In addition to the GNSS positioning solutions from the original GREAT-PVT and the multi-sensor fusion navigation capabilities provided by GREAT-MSF, GREAT-FGO delivers RTK and tightly-coupled RTK/INS algorithms based on factor graph optimization. <br />
   This open-sourced GREAT-FGO version 1.0 supports the following capabilities:
   
@@ -97,7 +97,7 @@ bilibili Account: **GREAT智能导航实验室** — we will continue to publish
 ## 概述
 
 &emsp;&emsp;GREAT (GNSS+ REsearch, Application and Teaching) 软件由武汉大学测绘学院设计开发，是一个用于空间大地测量数据处理、精密定位和定轨以及多源融合导航的综合性软件平台。<br />
-&emsp;&emsp;GREAT-FGO是GREAT软件中的一个重要模块，主要用于因子图优化 (Factor Graph Optimization, FGO) 导航解算，包括RTK、RTK/INS、RTK/INS/Visual与多传感器融合等多种算法。软件中，核心计算模块使用C++语言编写，辅助脚本模块使用Python3语言实现结果绘制。GREAT-FGO软件使用CMake工具进行编译管理，用户可以灵活选择GCC、Clang、MSVC等主流C++编译器。目前支持在Windows下编译运行，Linux系统需要用户自行编译测试。<br />
+&emsp;&emsp;GREAT-FGO是GREAT软件中的一个重要模块，主要用于因子图优化 (Factor Graph Optimization, FGO) 导航解算，包括RTK、RTK/INS与多传感器融合等多种算法。软件中，核心计算模块使用C++语言编写，辅助脚本模块使用Python3语言实现结果绘制。GREAT-FGO软件使用CMake工具进行编译管理，用户可以灵活选择GCC、Clang、MSVC等主流C++编译器。目前支持在Windows下编译运行，Linux系统需要用户自行编译测试。<br />
 &emsp;&emsp;GREAT-FGO由2个可移植程序库组成，分别是LibGREAT和LibGnut。除了原GREAT-PVT中的GNSS定位解决方案、GREAT-MSF提供的多传感器融合导航功能外，GREAT-FGO提供了基于因子图优化的RTK与RTK/INS紧耦合算法。<br />
 &emsp;&emsp;本次开源的GREAT-FGO 1.0版本支持以下功能：
 
@@ -116,7 +116,7 @@ bilibili Account: **GREAT智能导航实验室** — we will continue to publish
 	7.软件包还提供定位结果绘图脚本，便于用户对数据进行结果分析
 
 
-&emsp;&emsp;为服务大地测量与导航领域的青年学子，现开源GREAT软件基于因子图优化的RTK与RTK/INS部分的代码。不足之处恳请批评指正，我们将持续完善。后面会陆续开源更多基于因子图优化的定位算法，包括PPP/INS、GNSS/Visual/INS/LiDAR等多源传感器融合，同时开展系列代码培训。
+&emsp;&emsp;为服务大地测量与导航领域的青年学子，现开源GREAT软件基于因子图优化的RTK与RTK/INS部分的代码。不足之处恳请批评指正，我们将持续完善。后面会陆续开源更多基于多源传感器的因子图优化定位算法，同时开展系列代码培训。
 
 ## 软件包目录结构
 ```shell
