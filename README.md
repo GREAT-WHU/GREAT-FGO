@@ -7,21 +7,19 @@
   GREAT-FGO consists of two portable program libraries: LibGREAT and LibGnut. In addition to the GNSS positioning solutions from the original GREAT-PVT and the multi-sensor fusion navigation capabilities provided by GREAT-MSF, GREAT-FGO delivers RTK and tightly-coupled RTK/INS algorithms based on factor graph optimization. <br />
   This open-sourced GREAT-FGO version 1.0 supports the following capabilities:
   
-1.Supports satellite navigation systems including GPS, GLONASS, Galileo, BDS-2/3
 
-2.Supports RTK positioning based on factor graph optimization
+1.Supports RTK positioning based on factor graph optimization with carrier phase ambiguity resolution
 
-3.Supports tightly-coupled RTK/INS integration based on factor graph optimization with carrier phase ambiguity resolution
+2.Supports tightly-coupled RTK/INS integration based on factor graph optimization, featuring dynamic rapid initialization capability for integrated systems
 
-4.Supports dynamic rapid initialization of integrated systems, including displacement and velocity vector-aided alignment
+3.Supports satellite navigation systems including GPS, GLONASS, Galileo, BDS-2/3
 
-5.Supports custom IMU data formats and noise models
+4.Supports custom IMU data formats and noise models
 
-6.Support for trajectory visualization and Google Maps viewing
+5.Support for trajectory visualization and Google Maps viewing
 
-7.The software package also provides plotting scripts for positioning results to facilitate user data analysis
+6.The software package also provides plotting scripts for positioning results to facilitate user data analysis
 
-  To serve young scholars in geodesy and navigation, we are open-sourcing the Factor Graph Optimization-based RTK and RTK/INS part of GREAT. Feedback and criticism are sincerely welcome, and we will keep improving it. We will progressively open-source more multi-sensor-based factor graph optimization positioning algorithms, along with organizing a series of code training sessions.
 
 ## Package Directory Structure
 
@@ -39,7 +37,7 @@ GREAT-FGO_1.0
 
 ## Installation and Usage
 
-See **GREAT-FGO Documentation.pdf**.
+See **GREAT-FGO Documentation.pdf** included in the **./doc** directory.
 
 
 ## Contributing
@@ -101,22 +99,19 @@ bilibili Account: **GREAT智能导航实验室** — we will continue to publish
 &emsp;&emsp;GREAT-FGO由2个可移植程序库组成，分别是LibGREAT和LibGnut。除了原GREAT-PVT中的GNSS定位解决方案、GREAT-MSF提供的多传感器融合导航功能外，GREAT-FGO提供了基于因子图优化的RTK与RTK/INS紧耦合算法。<br />
 &emsp;&emsp;本次开源的GREAT-FGO 1.0版本支持以下功能：
 
-	1.支持GPS、GLONASS、Galileo、BDS-2/3等卫星导航系统
+	1.支持基于因子图优化的RTK解算，可实现载波相位模糊度固定
 	
-	2.支持基于因子图优化的RTK解算
+	2.支持基于因子图优化的RTK/INS紧耦合解算，具备组合系统动态快速初始化能力
 	
-	3.支持基于因子图优化的RTK/INS紧耦合解算，支持载波相位模糊度固定
-	
-	4.支持组合系统动态快速初始化，包括位移矢量和速度矢量辅助对准
-	
-	5.支持自定义IMU数据格式、噪声模型
+	3.支持GPS、GLONASS、Galileo、BDS-2/3等卫星导航系统
 
-	6.支持轨迹动态显示与谷歌地图查看
+	4.支持自定义IMU数据格式、噪声模型
 	
-	7.软件包还提供定位结果绘图脚本，便于用户对数据进行结果分析
+	5.支持轨迹动态显示与谷歌地图查看
 
+	6.软件包还提供定位结果绘图脚本，便于用户对数据进行结果分析
+	
 
-&emsp;&emsp;为服务大地测量与导航领域的青年学子，现开源GREAT软件基于因子图优化的RTK与RTK/INS部分的代码。不足之处恳请批评指正，我们将持续完善。后面会陆续开源更多基于多源传感器的因子图优化定位算法，同时开展系列代码培训。
 
 ## 软件包目录结构
 ```shell
@@ -133,7 +128,7 @@ GREAT-FGO_1.0
 
 ## 安装和使用
 
-参见《GREAT-FGO说明文档 1.0.pdf》或关注我们团队后续在视频网站bilibili发布的讲解视频。
+参见**doc**文件夹中的《GREAT-FGO说明文档 1.0.pdf》或关注我们团队后续在视频网站bilibili发布的讲解视频。
 
 
 
