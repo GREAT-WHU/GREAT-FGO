@@ -148,7 +148,7 @@ GREAT-FGO_1.0
 * GREAT-FGO使用G-Nut库(http://www.pecny.cz)
   Copyright (C) 2011-2016 GOP - Geodetic Observatory Pecny, RIGTC.
   
-* GREAT-FGO(http://pugixml.org)
+* GREAT-FGO使用pugixml库(http://pugixml.org)
   Copyright (C) 2006-2014 Arseny Kapoulkine.
 
 * GREAT-FGO使用Newmat库(http://www.robertnz.net/nm_intro.htm)
