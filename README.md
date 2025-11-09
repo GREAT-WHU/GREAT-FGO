@@ -71,7 +71,7 @@ Third-party libraries:
 * GREAT-FGO uses the PSINS library ([https://psins.org.cn](https://psins.org.cn))
   Copyright (c) 2015–2025 Gongmin Yan
 
-* GREAT-FGO uses the Ceres library ([http://ceres-solver.org](https://ceres-solver.org))
+* GREAT-FGO uses the Ceres library ([http://ceres-solver.org](http://ceres-solver.org))
   Copyright 2023 Google Inc.
 
 ## Download
