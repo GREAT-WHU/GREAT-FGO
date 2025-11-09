@@ -17,7 +17,9 @@
 
 5.Supports custom IMU data formats and noise models
 
-6.The software package also provides plotting scripts for positioning results to facilitate user data analysis
+6.Support for trajectory visualization and Google Maps viewing
+
+7.The software package also provides plotting scripts for positioning results to facilitate user data analysis
 
   To serve young scholars in geodesy and navigation, we are open-sourcing the Factor Graph Optimization-based RTK and RTK/INS part of GREAT. Feedback and criticism are sincerely welcome, and we will keep improving it. We will progressively open-source more factor graph optimization-based positioning algorithms, including PPP/INS and multi-sensor fusion (GNSS/Visual/INS/LiDAR), along with organizing a series of code training sessions.
 
@@ -108,8 +110,10 @@ bilibili Account: **GREAT智能导航实验室** — we will continue to publish
 	4.支持组合系统动态快速初始化，包括位移矢量和速度矢量辅助对准
 	
 	5.支持自定义IMU数据格式、噪声模型
+
+	6.支持轨迹动态显示与谷歌地图查看
 	
-	6.软件包还提供定位结果绘图脚本，便于用户对数据进行结果分析
+	7.软件包还提供定位结果绘图脚本，便于用户对数据进行结果分析
 
 
 &emsp;&emsp;为服务大地测量与导航领域的青年学子，现开源GREAT软件基于因子图优化的RTK与RTK/INS部分的代码。不足之处恳请批评指正，我们将持续完善。后面会陆续开源更多基于因子图优化的定位算法，包括PPP/INS、GNSS/Visual/INS/LiDAR等多源传感器融合，同时开展系列代码培训。
