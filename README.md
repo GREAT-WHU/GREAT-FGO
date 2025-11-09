@@ -69,7 +69,7 @@ Third-party libraries:
 * GREAT-FGO uses the PSINS library ([https://psins.org.cn](https://psins.org.cn))
   Copyright (c) 2015–2025 Gongmin Yan
 
-* GREAT-FGO uses the PSINS library ([https://ceres-solver.org/](https://ceres-solver.org/))
+* GREAT-FGO uses the PSINS library ([https://ceres-solver.org](https://ceres-solver.org))
   Copyright 2023 Google Inc.
 
 ## Download
@@ -162,7 +162,7 @@ GREAT-MSF_1.0
 * GREAT-FGO使用PSINS库(https://psins.org.cn)
   Copyright(c) 2015-2025 Gongmin Yan
 
-* GREAT-FGO使用Ceres 库(http://ceres-solver.org/)
+* GREAT-FGO使用Ceres 库(http://ceres-solver.org)
   Copyright 2023 Google Inc.
   
 ## 下载地址
