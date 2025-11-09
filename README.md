@@ -27,7 +27,7 @@
 GREAT-MSF_1.0
   ./src                   Source code *
     ./app                 Main programs of GREAT-PVTFGO, GREAT-GINSFGO, GREAT-MSF and GREAT-PVT *
-    ./LibGREAT            Core algorithm library for MSF navigation and GNSS positioning *
+    ./LibGREAT            Core algorithm library for Factor Graph Optimization*
     ./LibGnut             Gnut library *
     ./Third-party         Third-party libraries *
   ./sample_data           Example datasets *
